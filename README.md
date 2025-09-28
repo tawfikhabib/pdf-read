@@ -59,3 +59,10 @@ thrown.
  - use `uncomma()` to deal with numbers that may use a decimal comma (see `app/Helpers/Helper.php`)
 
  - use `App\GeonamesCountry::getIso()` to convert country names to ISO codes
+
+
+====================================================================================================
+
+# HOW TO TEST
+
+ - call `process_pdf(storage_path('pdf_client_test/TransalliancePdfAssistant_1.pdf'))` from the Tinker console
